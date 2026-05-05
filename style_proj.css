@@ -1,0 +1,127 @@
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+* {
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            background-color: #992729;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+        iframe {
+            width: 75%;
+            /* Opcional: centralizar o iframe na tela */
+            display: block;
+            margin: 0 auto;
+            height: 400px;
+            border-radius: 5%;
+        }
+
+        #imagem {
+            width: 50%;
+            border-radius: 5%;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 20px;
+        }
+
+        h1,
+        h3,
+        p {
+            color: #bbd2e6;
+        }
+
+        main {
+            background-color: #2f3449;
+        }
+
+        #txt {
+            color: black;
+        }
+
+        input {
+            background-color: #bbd2e6;
+            width: 200px;
+            height: 25px;
+        }
+
+        input[type]:hover {
+            background-color: #dad47c;
+        }
+
+        label {
+            color: #bbd2e6;
+        }
+
+        select {
+            cursor: pointer;
+        }
+        footer{
+            background-color: black;
+            color: azure;
+        }
+        #maps{
+            width : 600;
+            height : 450;
+            border:0;
+            padding: 10px 0px 10px 0px
+            
+        }
+        #voltar{
+            color: white;
+        }
+        #voltar:hover{
+            font-size: 20px;
+            color: aqua;
+            margin: 10px 0px 10px 0px;
+        }
+        header{
+            background-color: #dad47c;
+        }
+        #loc{
+            padding: 20px 0px 15px 0px;
+        }
+        hr{
+            padding: 0px;
+            width: 50%;
+            margin-left: 25%;
+        }
+        select{
+            background-color: #bbd2e6;
+        }
+        section {
+            padding-top: 30px;
+        }
+        #secao-doacoes {
+            margin-top: 30px;
+        }

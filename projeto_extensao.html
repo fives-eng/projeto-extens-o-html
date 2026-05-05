@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecantoDoSagradoCoraçao</title>
+    <link rel="stylesheet" href="style_proj.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/rsc.png" alt="logo.RSC">
+        <h3 id="txt">Recanto do Sagrado Coração (RSC)</h3>
+    </header>
+    <nav>
+        <a href="#sobrenos">Sobre nós</a>
+        <a href="#destaque">Destaques</a>
+        <a href="#doacoes">Doações</a>
+        <a href="#localizacao">Localização</a>
+    </nav>
+    <main>
+        <section>
+            <h1 id="sobrenos">Sobre nós</h1>
+            <iframe src="https://www.youtube.com/embed/9UlmLyq1ZKQ?si=vWvUtAtPZRXHcOIS" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <hr>
+        <section>
+            <h1 id="destaque">Destaque</h1>
+            <img id="imagem" src="img/img.rsc.jpg" alt="imagem de aniversario do rsc">
+            <h3>Quais os nossos serviços?</h3>
+            <p>Os centros de convivência para a terceira idade são espaços vitais de acolhimento e sociabilidade.
+                Geridos pelo setor público, entidades filantrópicas ou pela iniciativa privada, esses locais oferecem
+                atividades que promovem a saúde mental e física. O melhor de tudo é a democratização do acesso: em
+                geral, são gratuitos ou possuem taxas simbólicas, acolhendo idosos de todas as realidades.</p><br>
+            <p>Estimulamos o envelhecimento ativo por meio de um cronograma completo. Oferecemos desde o cuidado com o
+                físico — através da yoga e ginástica — até o estímulo cognitivo e criativo com oficinas culturais e
+                cursos de tecnologia ou idiomas. Para nós, a socialização é fundamental; por isso, promovemos eventos
+                festivos e rodas de conversa que transformam rotinas em novas amizades e vivências inesquecíveis.</p>
+        </section>
+        <section id="secao-doacoes">
+            <hr>
+            <h1 id="doacoes">Doações</h1>
+            <form method="post" action="#">
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="Nome completo"><br><br>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email"><br><br>
+                <label for="number">Número telefônico</label>
+                <input type="number" name="Numero"><br><br>
+                <label for="doacoes">Tipos de doações</label>
+                <select name="doacoes" id="doacoes">
+                    <option value="roupa">Roupas</option>
+                    <option value="alimentos">Alimentos</option>
+                    <option value="higiene">Materiais de higiene</option>
+                    <option value="bem_estar">Produtos de bem-estar</option>
+                    <option value="outros">Outros</option>
+                </select> <br><br>
+                <input type="submit">
+            </form>
+            <hr>
+            <h1 id="loc">Localização</h1>
+            <iframe id="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31849.902539969527!2d-38.592716325683554!3d-3.7583333999999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7494f6ab5d619%3A0xb4905080026c5817!2sRecanto%20Sagrado%20Cora%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1777940502338!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </section>
+    </main>
+    <footer>
+        <h3>Dsesenvolvedores</h3>
+        <ul>
+            <li>Josué Henrique</li>
+            <li>João Pedro</li>
+            <li>Nathanael Rodrigues</li>
+        </ul>
+        <a id="voltar" href="#top">Voltar ao topo</a><br><br>
+    </footer>
+</body>
+</html>
